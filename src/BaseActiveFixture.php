@@ -31,7 +31,7 @@ abstract class BaseActiveFixture extends Fixture implements IteratorAggregate, A
     public $dataFile;
 
     /**
-     * @inheritdoc
+     * {@inheritdoc}
      */
     public function load(): void
     {
@@ -39,7 +39,7 @@ abstract class BaseActiveFixture extends Fixture implements IteratorAggregate, A
     }
 
     /**
-     * @inheritdoc
+     * {@inheritdoc}
      */
     public function unload(): void
     {
@@ -73,8 +73,6 @@ abstract class BaseActiveFixture extends Fixture implements IteratorAggregate, A
 
     /**
      * Returns the fixture data file path.
-     *
-     * @return string
      */
     protected function resolveDataFilePath(): string
     {

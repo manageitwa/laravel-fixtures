@@ -31,7 +31,7 @@ class ActiveFixture extends BaseActiveFixture
     protected $table;
 
     /**
-     * @inheritdoc
+     * {@inheritdoc}
      */
     public function load(): void
     {
@@ -53,7 +53,7 @@ class ActiveFixture extends BaseActiveFixture
     }
 
     /**
-     * @inheritdoc
+     * {@inheritdoc}
      */
     public function unload(): void
     {
@@ -76,8 +76,6 @@ class ActiveFixture extends BaseActiveFixture
      * Returns the table name for [[modelClass]]
      *
      * @throws Exception
-     *
-     * @return string
      */
     protected function getTable(): string
     {

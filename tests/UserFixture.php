@@ -18,8 +18,6 @@ class UserFixture extends ActiveFixture
 
     /**
      * Returns the fixture data file path.
-     *
-     * @return string
      */
     protected function resolveDataFilePath(): string
     {
