@@ -3,19 +3,19 @@
 namespace CorpSoft\Tests\Fixture;
 
 use Illuminate\Database\Schema\Blueprint;
-use Orchestra\Testbench\TestCase as Orchestra;
+use Orchestra\Testbench\TestCase as BaseTestCase;
 
 /**
  * Class TestCase
  *
  * @package CorpSoft\Tests\Fixture
  */
-abstract class TestCase extends Orchestra
+abstract class TestCase extends BaseTestCase
 {
     /**
      * @inheritdoc
      */
-    public function setUp()
+    public function setUp(): void
     {
         parent::setUp();
 

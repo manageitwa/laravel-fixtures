@@ -3,6 +3,7 @@
 namespace CorpSoft\Tests\Fixture;
 
 use CorpSoft\Fixture\Exceptions\InvalidConfigException;
+use DMS\PHPUnitExtensions\ArraySubset\Assert;
 
 /**
  * Class FixtureTest
@@ -62,7 +63,7 @@ class FixtureTest extends TestCase
 
         $this->assertCount(2, $fixture->data);
 
-        $this->assertArraySubset([
+        Assert::assertArraySubset([
             ['email' => 'user1@example.org'],
         ], $fixture->data);
     }
