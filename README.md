@@ -22,13 +22,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist corp-soft/laravel-fixtures "*"
+php composer.phar require --prefer-dist manageitwa/laravel-fixtures "*"
 ```
 
 or add
 
 ```
-"corp-soft/laravel-fixtures": "*"
+"manageitwa/laravel-fixtures": "*"
 ```
 
 to the require section of your `composer.json` file.
